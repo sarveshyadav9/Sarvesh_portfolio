@@ -1,0 +1,241 @@
+*{
+  scroll-behavior: smooth;
+}
+.main{
+  border: 1px solid black;
+}
+.container{
+    height: 100vh;
+    
+}
+.container img{
+  padding-left: 450px;
+}
+#name{
+  float: right;
+  padding-right: 70px;
+  color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:blueviolet;
+  }
+  li{
+    float: left;
+    
+  }
+
+  li a{
+     color: white;
+     display: block;
+     text-align: center;
+     text-decoration: none;
+     padding: 18px;
+     margin: 1px;
+
+
+  }
+  
+  li a:hover:not(.active) {
+    background-color:black;
+  }
+
+  h1{
+    display: block;
+    padding: 45px;
+    text-align: center;
+  }
+  .about{
+    float:left;
+    
+  }
+  h2{
+    text-align: center;
+    color: blueviolet;
+  }
+  .about hr{
+    width: 40px;
+    height: 1px;
+  }
+  .about img{
+    border-radius: 50%;
+  }
+  .aboutimg{
+    float: left;
+  
+    width: 50%;
+    
+  }
+  .aboutcontent{
+    float: right;
+    background-color: blueviolet;
+    height:450px;
+    width: 40%;
+    margin-right: 100px;
+    padding: 10px;
+    border-radius: 10%;
+    
+  }
+  .aboutcontent p{
+    color: white
+  }
+
+  .aboutcontent button  {
+    width: 120px;
+    height: 40px; ;
+    background-color: blueviolet;
+    border-radius: 10%;
+    border: 1px solid white;
+    color: white;
+    box-shadow: whitesmoke;
+   
+
+  }
+
+  .aboutcontent a{
+   padding-left: -12px;
+  }
+  .aboutcontent a :hover{
+    color: black;
+  }
+  .button a{
+    color: white;
+   text-decoration: none;
+  }
+
+  
+  .Pname button{
+    
+    width: 250px;
+    height: 50px; ;
+    background-color: blueviolet;
+    border-radius: 10%;
+    border: none;
+    color: white;
+    
+  }
+  .Pname h2,p{
+    display: inline;
+    
+  }
+
+
+
+  
+  .achiv button{
+    width: 250px;
+    height: 50px; ;
+    background-color: blueviolet;
+    border-radius: 10%;
+    border: none;
+    color: white;
+  }
+  
+  .achiv{
+    padding-left: 150px;
+  }
+  .achiv img{
+   margin-left: 500px;
+   margin-top: -200px;
+  }
+
+  .certi button{
+    width: 250px;
+    height: 50px; ;
+    background-color: blueviolet;
+    border-radius: 10%;
+    border: none;
+    color: white;
+  }
+  .certi button:hover{
+    color:black;
+  }
+.certi img{
+  float:right;
+  margin-top: -300px;
+  margin-right: 200px;
+}
+
+.contact{
+  margin-left: 350px;
+  width: 50%;
+  
+  
+}
+
+  .Contactform{
+border: 2px solid blueviolet;
+width: 50%;
+height: 400px;
+padding-left: 180px;
+margin-top: 50px;
+padding-top: 30px;
+box-shadow: 5px 10px 20px blueviolet inset;
+  }
+  .Contactform button{
+    width: 120px;
+    height: 40px; ;
+    background-color: blueviolet;
+    border-radius: 10%;
+    border: 1px solid white;
+    color: white;
+    box-shadow: whitesmoke;
+
+  }
+  .Contactform button:hover{
+    color:black;
+  }
+
+
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 50%;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 50%;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 50%;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+    border-radius: 50%;
+  }
+  .fa-github {
+    background: #125688;
+    color: white;
+    border-radius: 50%;
+  }
+
+  footer{
+
+    margin-left: 370px;
+  }
+  footer p,a{
+    margin-left:150px;
+  }
